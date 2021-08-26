@@ -1,0 +1,17 @@
+{
+	"name": "@m4rch/extract-licenses",
+	"version": "0.1.0",
+	"description": "quickly extract all licenses into a single LICENSES.md file",
+	"author": "m4rch",
+	"license": "Unlicense",
+	"main": "src/index.js",
+	"keywords": [],
+	"bin": {
+		"extract-licenses": "bin/extract.js"
+	},
+	"dependencies": {
+		"license-checker": "^25.0.1",
+		"sade": "^1.7.4"
+	},
+	"type": "module"
+}
