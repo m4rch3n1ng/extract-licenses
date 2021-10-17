@@ -1,11 +1,15 @@
 {
 	"name": "@m4rch/extract-licenses",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "quickly extract all licenses into a single LICENSES.md file",
 	"author": "m4rch",
 	"license": "Unlicense",
 	"main": "src/index.js",
-	"keywords": [],
+	"keywords": [
+		"extract-licenses",
+		"licenses",
+		"m4rch"
+	],
 	"bin": {
 		"extract-licenses": "bin/extract.js"
 	},
